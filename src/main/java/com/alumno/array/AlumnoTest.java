@@ -1,4 +1,4 @@
-package com.alumno;
+package com.alumno.array;
 
 import com.notas.Nota;
 import org.junit.jupiter.api.Test;
