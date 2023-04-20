@@ -15,6 +15,6 @@ public class AlumnoTest {
         Nota[] notas = {n1,n2,n3};
         Alumno alumno = new Alumno(notas);
         Nota notaMayor = alumno.mayorNota();
-        assertEquals(8.6, notaMayor.getQualification(), 0.1);
+        assertEquals(n3, notaMayor);
     }
 }
