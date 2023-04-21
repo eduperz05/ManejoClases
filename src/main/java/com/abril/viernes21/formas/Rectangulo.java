@@ -10,6 +10,10 @@ public class Rectangulo {
     }
 
     public double area () {
+        return Rectangulo.area(lado1,lado2);
+    }
+
+    public static double area ( double lado1, double lado2) {
         return lado1 * lado2;
     }
     public double getLado1() {
