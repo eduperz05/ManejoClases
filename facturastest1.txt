@@ -1,0 +1,3 @@
+IVA, 1, ordenador, 220
+SINIVA, 2, tablet, 300
+IVA, 3, movil, 150

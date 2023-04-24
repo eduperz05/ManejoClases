@@ -1,6 +1,9 @@
 package com.vivienda;
 
-import org.junit.jupiter.api.BeforeAll;
+import com.abril.jueves20.alumno.vivienda.Consola;
+import com.abril.jueves20.alumno.vivienda.Dispositivo;
+import com.abril.jueves20.alumno.vivienda.Lampara;
+import com.abril.jueves20.alumno.vivienda.Televisor;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

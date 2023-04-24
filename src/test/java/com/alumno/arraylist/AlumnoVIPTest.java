@@ -1,5 +1,6 @@
 package com.alumno.arraylist;
 
+import com.abril.jueves20.alumno.arraylist.AlumnoVIP;
 import  org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

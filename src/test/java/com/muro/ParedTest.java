@@ -1,4 +1,6 @@
 package com.muro;
+import com.abril.jueves20.alumno.muro.Azulejo;
+import com.abril.jueves20.alumno.muro.Pared;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
