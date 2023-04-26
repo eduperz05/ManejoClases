@@ -13,9 +13,7 @@ public class LectorFicheroTest {
     @Test
     public void elFicheroNoExiste() throws IOException {
         LectorFichero lector = new LectorFichero("noexiste.txt");
-        assertThrows(IOException.class, () -> {
-            lector.leerLineas();
-        });
+        assertThrows(IOException.class, lector::leerLineas);
     }
     @Test
     public void leerLineasNoEsNulo() throws IOException {

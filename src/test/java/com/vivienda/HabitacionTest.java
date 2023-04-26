@@ -1,9 +1,9 @@
 package com.vivienda;
 
-import com.abril.jueves20.alumno.vivienda.Habitacion;
-import com.abril.jueves20.alumno.vivienda.Mesa;
-import com.abril.jueves20.alumno.vivienda.Mueble;
-import com.abril.jueves20.alumno.vivienda.Sillas;
+import com.abril.jueves20.vivienda.Habitacion;
+import com.abril.jueves20.vivienda.Mesa;
+import com.abril.jueves20.vivienda.Mueble;
+import com.abril.jueves20.vivienda.Sillas;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

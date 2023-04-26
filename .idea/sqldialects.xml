@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/src/main/java/com/abril/martes25/FacturaAR.java" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/abril/martes25/OrdenadorAR.java" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/abril/martes25/Principal.java" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/abril/martes25/Principal2.java" dialect="MariaDB" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/abril/martes25/Principal3.java" dialect="MariaDB" />
+  </component>
+</project>

@@ -1,7 +1,7 @@
 package org.example;
-import com.abril.jueves20.alumno.persona.Impresora;
-import com.abril.jueves20.alumno.persona.Impresora2023;
-import com.abril.jueves20.alumno.persona.ImpresoraLaser;
+import com.abril.jueves20.persona.Impresora;
+import com.abril.jueves20.persona.Impresora2023;
+import com.abril.jueves20.persona.ImpresoraLaser;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.

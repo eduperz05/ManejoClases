@@ -1,6 +1,6 @@
 package com.abril.jueves20.alumno.arraylist;
 
-import com.abril.jueves20.alumno.notas.Nota;
+import com.abril.jueves20.notas.Nota;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;

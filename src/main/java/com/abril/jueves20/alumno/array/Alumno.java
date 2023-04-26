@@ -1,6 +1,6 @@
 package com.abril.jueves20.alumno.array;
 
-import com.abril.jueves20.alumno.notas.Nota;
+import com.abril.jueves20.notas.Nota;
 
 public class Alumno {
 
