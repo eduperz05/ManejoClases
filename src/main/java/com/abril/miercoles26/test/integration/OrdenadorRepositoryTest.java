@@ -1,4 +1,4 @@
-package com.abril.miercoles26.test;
+package com.abril.miercoles26.test.integration;
 
 import com.abril.miercoles26.config.CargadorConsultasSQL;
 import com.abril.miercoles26.config.DataBaseHelper2;

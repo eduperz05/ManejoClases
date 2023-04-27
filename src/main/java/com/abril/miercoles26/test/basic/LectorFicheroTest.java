@@ -1,4 +1,4 @@
-package com.abril.miercoles26.test;
+package com.abril.miercoles26.test.basic;
 
 import com.abril.miercoles26.config.LectorFichero;
 import org.junit.jupiter.api.Test;

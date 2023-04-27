@@ -1,4 +1,4 @@
-package com.abril.miercoles26.test;
+package com.abril.miercoles26.test.integration;
 
 import com.abril.miercoles26.config.CargadorConsultasSQL;
 import com.abril.miercoles26.config.DataBaseHelper2;
@@ -55,7 +55,7 @@ public class TelefonoRepositoryTest {
     public void buscarTelefonoescAROSTest() {
 
         List<Telefono> lista = repositorio.buscarTelefonosCaros(700);
-        assertTrue(lista.size() >= 2);
+        assertTrue(lista.size() >= 2L);
 
     }
 
