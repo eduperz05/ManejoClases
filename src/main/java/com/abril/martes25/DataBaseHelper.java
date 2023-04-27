@@ -19,5 +19,9 @@ public class DataBaseHelper {
 
     }
 
+    public void executarConsulta(String sql) {
+        
+    }
+
 
 }
