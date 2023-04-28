@@ -11,8 +11,8 @@ import java.util.List;
 
 public class InformaticaService {
 
-    private TelefonoRepository repositorioTelefono;
-    private OrdenadorRepository repositorioOrdenador;
+    private final TelefonoRepository repositorioTelefono;
+    private final OrdenadorRepository repositorioOrdenador;
 
     public InformaticaService(TelefonoRepository repositorioTelefono, OrdenadorRepository repositorioOrdenador) {
         this.repositorioTelefono = repositorioTelefono;
