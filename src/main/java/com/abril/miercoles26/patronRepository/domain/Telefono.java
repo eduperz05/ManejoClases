@@ -66,4 +66,8 @@ public class Telefono {
     public void setPrecio(double precio) {
         this.precio = precio;
     }
+
+    public void recargo(double recargo) {
+        this.precio += recargo;
+    }
 }

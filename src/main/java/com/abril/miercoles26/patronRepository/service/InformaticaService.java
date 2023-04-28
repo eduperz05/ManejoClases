@@ -6,6 +6,7 @@ import com.abril.miercoles26.patronRepository.domain.Telefono;
 import com.abril.miercoles26.patronRepository.repository.OrdenadorRepository;
 import com.abril.miercoles26.patronRepository.repository.TelefonoRepository;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class InformaticaService {
@@ -26,8 +27,23 @@ public class InformaticaService {
         return repositorioTelefono.insertar(telefono);
     }
 
+    public ArrayList<Telefono> insertarTelefonos(List<Telefono> telefonos) {
+        ArrayList<Telefono> tfns = new ArrayList<>();
+        for (Telefono tf : telefonos) {
+            tf.recargo(100);
+            tfns.add(insertarTelefono(tf));
+        }
+        return tfns;
+    }
+
     public void borrarTelefono(Telefono telefono) {
         repositorioTelefono.borrar(telefono);
+    }
+
+    public void borrarTelefonos(List<Telefono> telefonos) {
+        for (Telefono tfn : telefonos) {
+            borrarTelefono(tfn);
+        }
     }
 
     public List<Telefono> buscarTodosTelefonos() {
@@ -51,8 +67,22 @@ public class InformaticaService {
         return repositorioOrdenador.insertar(ordenador);
     }
 
+    public ArrayList<Ordenador> insertarOrdenadores(List<Ordenador> ordenadores) {
+        ArrayList<Ordenador> ors = new ArrayList<>();
+        for (Ordenador or : ordenadores) {
+            ors.add(insertarOrdenador(or));
+        }
+        return ors;
+    }
+
     public void borrarOrdenador(Ordenador ordenador) {
         repositorioOrdenador.borrar(ordenador);
+    }
+
+    public void borrarOrdenadores(List<Ordenador> ordenadores) {
+        for (Ordenador or : ordenadores) {
+            borrarOrdenador(or);
+        }
     }
 
     public List<Ordenador> buscarTodosOrdenadores() {
